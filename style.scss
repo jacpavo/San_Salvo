@@ -1,0 +1,133 @@
+
+body{
+    height: 100vh;
+    p{
+        font-family: "kavoon";
+        text-align: center;
+        font-size: 18px;
+    }
+    
+}
+header{
+        background-color: #f9e2c8;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+    img{
+        width: 15%;
+    }
+}
+
+nav{
+    ul{
+        li{
+            list-style: none;
+            display: inline-block;
+            a{
+                color: #03989e;
+                font-family: "kavoon";
+                border-style: solid;
+                border-width: 2px;
+                border-color: #ff5757;
+                margin-top: 10px;
+                margin-left: 50px;
+                padding: 2px 18px;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+section{
+    height: auto;
+    border: solid;
+    border-width: 5px;
+    padding: 100px;
+    margin: 3px;
+    background-image: linear-gradient(#f9e2c8, white);
+        .bienvenida{
+            font-family: "kavoon";
+            font-size: 50px;
+            line-height: normal;
+            text-align: center;
+            transition: 1s;
+        }
+}
+section.historia{
+            font-size: 20px;
+            line-height: normal;
+            text-align: center;
+        }
+section.contacto{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    h2{
+        font-family: "kavoon";
+        text-align: center;
+
+    }
+    div{
+        img{
+            height: 600px;
+        };
+    }
+    article{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+} 
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #03989e;
+    p{
+    font-size: 15px;
+    color: white;
+    line-height: normal;
+    text-align: right;
+    }
+    i{
+        font-size: 2rem;
+        color: white;
+        margin: 0.2rem;
+    }
+}
+@media only screen and ( max-width: 380px ) {
+    body{
+        h1{
+            font-size: 12px;
+        }
+        p{
+            font-size: 10px;
+        }
+    }
+.contacto{
+        display: flex;
+        flex-direction: column;
+    }
+.map{
+    display: none;
+}
+.flyer{
+    img{
+        align-items: center;
+        justify-content: left;
+        height: 10px;
+        width: 200px;
+    }
+}
+}
+
+.imghuevo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}

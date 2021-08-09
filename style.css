@@ -1,0 +1,183 @@
+body {
+  height: 100vh;
+}
+
+body p {
+  font-family: "kavoon";
+  text-align: center;
+  font-size: 18px;
+}
+
+header {
+  background-color: #f9e2c8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header img {
+  width: 15%;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #03989e;
+  font-family: "kavoon";
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ff5757;
+  margin-top: 10px;
+  margin-left: 50px;
+  padding: 2px 18px;
+  border-radius: 10px;
+}
+
+section {
+  height: auto;
+  border: solid;
+  border-width: 5px;
+  padding: 100px;
+  margin: 3px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f9e2c8), to(white));
+  background-image: linear-gradient(#f9e2c8, white);
+}
+
+section .bienvenida {
+  font-family: "kavoon";
+  font-size: 50px;
+  line-height: normal;
+  text-align: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.historia {
+  font-size: 20px;
+  line-height: normal;
+  text-align: center;
+}
+
+section.contacto {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.contacto h2 {
+  font-family: "kavoon";
+  text-align: center;
+}
+
+section.contacto div img {
+  height: 600px;
+}
+
+section.contacto article {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #03989e;
+}
+
+footer p {
+  font-size: 15px;
+  color: white;
+  line-height: normal;
+  text-align: right;
+}
+
+footer i {
+  font-size: 2rem;
+  color: white;
+  margin: 0.2rem;
+}
+
+@media only screen and (max-width: 380px) {
+  body h1 {
+    font-size: 12px;
+  }
+  body p {
+    font-size: 10px;
+  }
+  .contacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .map {
+    display: none;
+  }
+  .flyer img {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    height: 10px;
+    width: 200px;
+  }
+}
+
+.imghuevo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*# sourceMappingURL=style.css.map */
