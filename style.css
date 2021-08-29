@@ -26,7 +26,7 @@ header {
 }
 
 header img {
-  width: 15%;
+  width: 50%;
 }
 
 nav ul li {
@@ -44,6 +44,10 @@ nav ul li a {
   margin-left: 50px;
   padding: 2px 18px;
   border-radius: 10px;
+}
+
+nav .hidden {
+  display: none;
 }
 
 section {
@@ -72,7 +76,7 @@ section.historia {
 }
 
 section.contacto {
-  height: auto;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,6 +99,7 @@ section.contacto h2 {
 
 section.contacto div img {
   height: 600px;
+  margin: 2rem;
 }
 
 section.contacto article {
@@ -105,6 +110,13 @@ section.contacto article {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+section.contacto form {
+  margin: 2rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 footer {
@@ -142,7 +154,10 @@ footer i {
   body p {
     font-size: 10px;
   }
-  .contacto {
+  body .logo {
+    width: 25%;
+  }
+  body .contacto {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -151,18 +166,14 @@ footer i {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .map {
+  body .map form {
     display: none;
   }
-  .flyer img {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-    height: 10px;
-    width: 200px;
+  body .map div {
+    display: none;
+  }
+  body .flyer img {
+    width: 150%;
   }
 }
 
